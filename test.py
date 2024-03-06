@@ -1,1 +1,1 @@
-print("Hello Worlds World!")
+from us_visa.components.data_ingestion import main
