@@ -16,7 +16,8 @@ from us_visa.constants import SCHEMA_FILE_PATH
 
 
 class DataValidation:
-    def __init__(self, data_ingestion_artifact: DataIngestionArtifact, data_validation_config: DataValidationConfig):
+    def __init__(self, data_ingestion_artifact: DataIngestionArtifact, 
+                 data_validation_config: DataValidationConfig):
         """
         :param data_ingestion_artifact: Output reference of data ingestion artifact stage
         :param data_validation_config: configuration for data validation
